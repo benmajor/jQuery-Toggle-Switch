@@ -32,7 +32,7 @@
     $.fn.toggleSwitch = function( opts, value )
     {
         // Permitted themes:
-        var themes = [ 'default', 'square', 'outline' ],
+        var themes = [ 'default', 'square', 'outline', 'square-outline' ],
             sizes  = [ 'medium', 'small', 'large', 'xlarge' ];
             
         if( typeof opts == 'object' || opts == undefined )
